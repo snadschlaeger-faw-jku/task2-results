@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<facts>
+	<fact name="CreditCard">
+		<slots>
+			<slot name="cardNumber" type="java.lang.Integer" value="123"
+				inputRequired="false" />
+			<slot name="active" type="java.lang.Boolean" value="true"
+				inputRequired="false" />
+		</slots>
+	</fact>
+	<fact name="CreditCard">
+		<slots>
+			<slot name="cardNumber" type="java.lang.Integer" value="234"
+				inputRequired="false" />
+			<slot name="active" type="java.lang.Boolean" value="true"
+				inputRequired="false" />
+		</slots>
+	</fact>
+	<fact name="CreditCard">
+		<slots>
+			<slot name="cardNumber" type="java.lang.Integer" value="345"
+				inputRequired="false" />
+			<slot name="active" type="java.lang.Boolean" value="false"
+				inputRequired="false" />
+		</slots>
+	</fact>
+	<fact name="Pin">
+		<slots>
+			<slot name="cardNumber" type="java.lang.Integer" value="123"
+				inputRequired="false" />
+			<slot name="pinNumber" type="java.lang.Integer" value="777"
+				inputRequired="true" />
+		</slots>
+	</fact>
+	<fact name="Pin">
+		<slots>
+			<slot name="cardNumber" type="java.lang.Integer" value="234"
+				inputRequired="false" />
+			<slot name="pinNumber" type="java.lang.Integer" value="888"
+				inputRequired="true" />
+		</slots>
+	</fact>
+	<fact name="Pin">
+		<slots>
+			<slot name="cardNumber" type="java.lang.Integer" value="345"
+				inputRequired="false" />
+			<slot name="pinNumber" type="java.lang.Integer" value="999"
+				inputRequired="true" />
+		</slots>
+	</fact>
+</facts>
